@@ -1,11 +1,16 @@
 <template lang="html">
+<div class="app">
+  <div class="app__sidebar">
+    <h1>Build Monster </h1>
 
+    <img src="/monsters/body-1.png" alt="">
+  </div>
+</div>
 </template>
 
 <script>
-export default {
-}
-</script>
+import Vue from 'vue';
 
-<style lang="css">
-</style>
+export default Vue.extend({
+});
+</script>
